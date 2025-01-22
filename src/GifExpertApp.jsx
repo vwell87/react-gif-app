@@ -9,7 +9,8 @@ export const GifExpertApp = () => {
     // setCategories(cat => [...cat, 'Valorant']) Una forma de hacerlo
     if (categories.includes(newCategory)) return;
 
-    setCategories([...categories, newCategory]); // Mejor así
+    setCategories([newCategory]); // Mejor así
+    
   };
 
   return (
